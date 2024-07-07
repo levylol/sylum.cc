@@ -22,7 +22,7 @@
  .discord-icon,
  .globe-icon {
      font-size: 28px;
-     color: rgb(83, 83, 83);
+     color: rgb(255, 255, 255);
      text-shadow: 0 0 1px rgb(255, 0, 0);
  }
  
@@ -98,7 +98,7 @@
      background-color: transparent;
      border: none;
      font-size: 20px;
-     color: rgb(97, 97, 97);
+     color: rgb(255, 255, 255);
      position: fixed;
  }
  
@@ -108,7 +108,7 @@
  }
  
  .glass-box {
-    color: rgb(85, 85, 85);
+    color: rgb(255, 255, 255);
     text-shadow: 0 0 1px rgb(255, 0, 0);
     width: 40%;
     height: 60%;
@@ -126,7 +126,7 @@
 
  
  .icons {
-     color: rgb(85, 85, 85);
+     color: rgb(255, 255, 255);
      margin-top: -20px;
      margin-right: 6.4px;
      display: flex;
@@ -164,7 +164,7 @@
      position: relative;
      top: 4px;
      right: -2px;
-     color: rgb(85, 85, 85);
+     color: rgb(255, 255, 255);
      font-size: 17px;
      white-space: nowrap;
      overflow: hidden;
