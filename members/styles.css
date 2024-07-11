@@ -1,0 +1,85 @@
+@font-face {
+    font-family: 'OwnersFont';
+    src: url('HelpMe.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'ButtonFont';
+    src: url('MC.ttf') format('truetype');
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100vh;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.gif-container {
+    margin-top: 20px;
+    margin-bottom: 10px; 
+}
+
+.white-gif {
+    width: 150px; 
+    filter: brightness(0) invert(1); 
+}
+
+.owners {
+    font-size: 35px;
+    font-weight: normal;
+    font-family: 'OwnersFont', sans-serif;
+    letter-spacing: 5px;
+    margin-bottom: 3px; 
+    margin-left: 10px; 
+}
+
+.members {
+    font-size: 30px;
+    font-weight: normal;
+    font-family: 'OwnersFont', sans-serif;
+    letter-spacing: 5px;
+    margin-top: 5px; 
+    margin-left: 10px; 
+}
+
+.devs {
+    font-size: 30px;
+    font-weight: normal;
+    font-family: 'OwnersFont', sans-serif;
+    letter-spacing: 5px;
+    margin-top: 5px; 
+    margin-left: 10px; 
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0px; 
+}
+
+.button {
+    font-family: 'ButtonFont', sans-serif;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    margin: 2px 0; 
+    transition: color 0.3s;
+}
+
+.button:hover {
+    color: red;
+}
