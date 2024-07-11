@@ -4,7 +4,7 @@
 }
 
 @font-face {
-    font-family: 'ButtonFont';
+    font-family: 'Butt';
     src: url('MC.ttf') format('truetype');
 }
 
@@ -38,11 +38,11 @@ body {
 }
 
 .owners {
-    font-size: 30px;
+    font-size: 35px;
     font-weight: normal;
     font-family: 'OwnersFont', sans-serif;
     letter-spacing: 5px;
-    margin-bottom: 5px; 
+    margin-bottom: 3px; 
     margin-left: 10px; 
 }
 
@@ -51,7 +51,16 @@ body {
     font-weight: normal;
     font-family: 'OwnersFont', sans-serif;
     letter-spacing: 5px;
-    margin-top: 10px; 
+    margin-top: 5px; 
+    margin-left: 10px; 
+}
+
+.devs {
+    font-size: 30px;
+    font-weight: normal;
+    font-family: 'OwnersFont', sans-serif;
+    letter-spacing: 5px;
+    margin-top: 5px; 
     margin-left: 10px; 
 }
 
@@ -63,7 +72,7 @@ body {
 }
 
 .button {
-    font-family: 'ButtonFont', sans-serif;
+    font-family: 'Butt', sans-serif;
     font-size: 20px;
     color: white;
     text-decoration: none;
