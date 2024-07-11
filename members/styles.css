@@ -38,11 +38,11 @@ body {
 }
 
 .owners {
-    font-size: 35px;
+    font-size: 30px;
     font-weight: normal;
     font-family: 'OwnersFont', sans-serif;
     letter-spacing: 5px;
-    margin-bottom: 3px; 
+    margin-bottom: 5px; 
     margin-left: 10px; 
 }
 
@@ -51,16 +51,7 @@ body {
     font-weight: normal;
     font-family: 'OwnersFont', sans-serif;
     letter-spacing: 5px;
-    margin-top: 5px; 
-    margin-left: 10px; 
-}
-
-.devs {
-    font-size: 30px;
-    font-weight: normal;
-    font-family: 'OwnersFont', sans-serif;
-    letter-spacing: 5px;
-    margin-top: 5px; 
+    margin-top: 10px; 
     margin-left: 10px; 
 }
 
@@ -72,7 +63,7 @@ body {
 }
 
 .button {
-    font-family: 'ButtonFont', MC.TTF;
+    font-family: 'ButtonFont', sans-serif;
     font-size: 20px;
     color: white;
     text-decoration: none;
