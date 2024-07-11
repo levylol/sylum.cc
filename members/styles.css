@@ -1,11 +1,11 @@
 @font-face {
     font-family: 'OwnersFont';
-    src: url('HelpMe.ttf') format('truetype');
+    src: url('font/HelpMe.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'Butt';
-    src: url('MC.ttf') format('truetype');
+    src: url('fonts/.ttf') format('truetype');
 }
 
 body {
