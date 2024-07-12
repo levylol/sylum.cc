@@ -229,15 +229,15 @@ a:hover {
 }
 
 .profile-picture {
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     border-radius: 50%; 
     overflow: hidden;
     box-shadow: 0 0 20px 5px rgba(255, 255, 255, 0.8);
 }
 
 .profile-picture img {
-    width: 100%;
-    height: 100%;
+    width: 150%;
+    height: 150%;
     object-fit: cover;
 }
