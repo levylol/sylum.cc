@@ -9,7 +9,7 @@
 }
 
 body {
-    background-image: ('cuts.png');
+    background-image: url('cuts.png');
     background-size: cover;
     color: white;
     font-family: Arial, sans-serif;
