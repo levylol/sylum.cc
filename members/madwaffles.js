@@ -1,6 +1,6 @@
 (function() {
   const snowflakesCount = 15;
-  const snowflakes = ["†"];
+  const snowflakes = ["🗡"];
   
   const createSnowflakeStyle = () => {
       const style = document.createElement('style');
