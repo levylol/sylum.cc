@@ -8,8 +8,13 @@
     src: url('fonts/MC.TTF') format('truetype');
 }
 
+@font-face {
+    font-family: "Main";
+    src: url("/Users/gameg/Downloads/members/MC.TTF");
+}
+
 body {
-    background-image: url('cuts.png');
+    background-image: url('/Users/gameg/Downloads/members/cuts.png');
     background-size: cover;
     color: white;
     font-family: Arial, sans-serif;
@@ -29,6 +34,57 @@ body {
      user-select: none;
 }
 
+header {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    width: 1000px;
+    padding: 5px 10px;
+    border-radius: 90px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    justify-content: space-between;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.title {
+    flex-grow: 1;
+    text-align: center;
+    color: #fff;
+    font-size: 25px;
+    font-family: Main;
+    margin-top: -6px;
+    margin-left: -780px;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.links a {
+    font-family: Main;
+    color: #fff;
+    text-decoration: none;
+    font-size: 25px;
+    padding: 0 10px;
+    margin-left: -5px
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
 
 .header {
     display: flex;
@@ -43,8 +99,41 @@ body {
      user-select: none;
 }
 
+#members {
+    width: 800px;
+    margin: 0 auto;
+    padding: 1em;
+    margin-left: 640px;
+    margin-top: -40;
+}
+
+#members table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1em 0;
+}
+
+.download-button {
+    display: block;
+    margin: 0 auto;
+    padding: 0.5em 1em;
+    background-color: #55555500;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+}
+
+
+
+footer {
+    text-align: center;
+    padding: 1em 0;
+    background-color: #1a1a1a;
+}
+
 .gif-container {
-    margin-top: 20px;
+    margin-top: 80px;
     margin-bottom: 10px; 
     -webkit-touch-callout: none;
      -webkit-user-select: none;
