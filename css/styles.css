@@ -1,0 +1,202 @@
+@font-face {
+    font-family: "Main";
+    src: url("/Users/gameg/Downloads/cuts revamp/cuts revamp/assets/MC.TTF");
+}
+
+@font-face {
+    font-family: "Other";
+    src: url("/Users/gameg/Downloads/cuts revamp/cuts revamp/assets/MC.TTF");
+}
+
+
+
+body {
+    background-image: url('/Users/gameg/Downloads/cuts revamp/cuts revamp/assets/cuts.png');
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    width: 1000px;
+    background: rgba(0, 0, 0, 0.3);
+    padding: 5px 10px;
+    border-radius: 90px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    justify-content: space-between;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.logo img {
+    margin-top: 5px;
+    margin-left: px;
+    width: 60px;
+    height: 60px;
+    -webkit-touch-callout: none;
+     -webkit-user-select: none;
+     -khtml-user-select: none;
+     -moz-user-select: none;
+     -ms-user-select: none;
+     user-select: none;
+}
+
+.title {
+    flex-grow: 1;
+    text-align: center;
+    color: #fff;
+    font-size: 25px;
+    font-family: Arial, sans-serif;
+    margin-top: -6px;
+    margin-left: -630px;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.title p {
+    font-family: Main;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+
+.links a {
+    font-family: Main;
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 0 10px;
+    margin-left: -5px
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.menu1 {
+    position: absolute;
+    top: 25px;
+    right: 60px;
+    z-index: 1000;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.menu2 {
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 35px;
+    left: px;
+    cursor: pointer;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.dropdown {
+    display: none;
+    flex-direction: column;
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 5px;
+    padding: 10px;
+    position: absolute;
+    top: 50px;
+    right: -13px;
+    z-index: 1000;
+    font-family: Main;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.dropdown a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 0;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.dropdown.show {
+    display: flex;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#mute-button {
+    width: 50px; /* Smaller width */
+    height: 50px; /* Smaller height */
+    border: none;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0);
+    background-image: url('/Users/gameg/Downloads/cuts revamp/cuts revamp/assets/icons8-volume-50.png'); /* Unmuted icon */
+    background-size: 25px 25px; /* Adjust size of the icon */
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    position: absolute;
+    top: 26px;
+    left: 1169px;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#mute-button.muted {
+    background-image: url('/Users/gameg/Downloads/cuts revamp/cuts revamp/assets/icons8-mute-50.png'); /* Muted icon */
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
