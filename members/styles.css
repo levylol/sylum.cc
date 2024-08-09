@@ -10,11 +10,11 @@
 
 @font-face {
     font-family: "Main";
-    src: url("/Users/gameg/Downloads/members/MC.TTF");
+    src: url("MC.TTF");
 }
 
 body {
-    background-image: url('/Users/gameg/Downloads/members/cuts.png');
+    background-image: url('cuts.png');
     background-size: cover;
     color: white;
     font-family: Arial, sans-serif;
