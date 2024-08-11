@@ -1,17 +1,17 @@
 @font-face {
     font-family: "Main";
-    src: url("/assets/MC.TTF");
+    src: url("/Users/gameg/Downloads/cuts revam/cuts revamp/assets/MC.ttf");
 }
 
 @font-face {
     font-family: "Other";
-    src: url("/assets/MC.TTF");
+    src: url("assets/MC.TTF");
 }
 
 
 
 body {
-    background-image: url('/assets/cuts.png');
+    background-image: url('/Users/gameg/Downloads/cuts revam/cuts revamp/assets/cuts.png');
     background-size: cover;
     background-attachment: fixed;
     margin: 0;
@@ -26,12 +26,12 @@ body {
 header {
     display: flex;
     align-items: center;
-    height: 50px;
-    width: 1000px;
+    height: 35px;
+    width: 550px;
     background: rgba(0, 0, 0, 0.3);
     padding: 5px 10px;
     border-radius: 90px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0px 3px rgb(81, 0, 156);
     position: absolute;
     top: 20px;
     left: 50%;
@@ -48,8 +48,8 @@ header {
 .logo img {
     margin-top: 5px;
     margin-left: px;
-    width: 60px;
-    height: 60px;
+    width: 30px;
+    height: 30px;
     -webkit-touch-callout: none;
      -webkit-user-select: none;
      -khtml-user-select: none;
@@ -61,11 +61,11 @@ header {
 .title {
     flex-grow: 1;
     text-align: center;
-    color: #fff;
-    font-size: 25px;
+    color: #ffffffc4;
+    font-size: 23px;
     font-family: Arial, sans-serif;
-    margin-top: -6px;
-    margin-left: -630px;
+    margin-top: -5px;
+    margin-left: -240px;
     -webkit-touch-callout: none;
     -webkit-user-select: none;
     -khtml-user-select: none;
@@ -89,15 +89,20 @@ header {
     font-family: Main;
     color: #fff;
     text-decoration: none;
-    font-size: 20px;
-    padding: 0 10px;
-    margin-left: -5px
+    font-size: 18px;
+    padding: 0 5px;
     -webkit-touch-callout: none;
     -webkit-user-select: none;
     -khtml-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
+}
+
+
+/* Underline the text on hover */
+.links:hover {
+        text-decoration: underline;
 }
 
 .menu1 {
@@ -161,38 +166,6 @@ header {
 
 .dropdown.show {
     display: flex;
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-}
-
-#mute-button {
-    width: 50px; /* Smaller width */
-    height: 50px; /* Smaller height */
-    border: none;
-    border-radius: 50%;
-    background-color: rgba(0, 0, 0, 0);
-    background-image: url('/Users/gameg/Downloads/cuts revamp/cuts revamp/assets/icons8-volume-50.png'); /* Unmuted icon */
-    background-size: 25px 25px; /* Adjust size of the icon */
-    background-repeat: no-repeat;
-    background-position: center;
-    cursor: pointer;
-    position: absolute;
-    top: 26px;
-    left: 1169px;
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-}
-
-#mute-button.muted {
-    background-image: url('/Users/gameg/Downloads/cuts revamp/cuts revamp/assets/icons8-mute-50.png'); /* Muted icon */
     -webkit-touch-callout: none;
     -webkit-user-select: none;
     -khtml-user-select: none;
