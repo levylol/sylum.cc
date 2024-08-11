@@ -1,17 +1,17 @@
 @font-face {
     font-family: "Main";
-    src: url("/Users/gameg/Downloads/cuts revam/cuts revamp/assets/MC.ttf");
+    src: url("/assets/MC.ttf");
 }
 
 @font-face {
     font-family: "Other";
-    src: url("assets/MC.TTF");
+    src: url("/assets/MC.TTF");
 }
 
 
 
 body {
-    background-image: url('/Users/gameg/Downloads/cuts revam/cuts revamp/assets/cuts.png');
+    background-image: url('/assets/cuts.png');
     background-size: cover;
     background-attachment: fixed;
     margin: 0;
