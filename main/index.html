@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" href="assets/ICON.gif">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sylum.cc</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <style>
+.changing-text {
+            font-family: Main;
+            color: rgb(255, 255, 255);
+            margin-top: -600px;
+            font-size: 40px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="/assets/ICON.gif" alt="Logo">
+        </div>
+        <div class="title">
+            <p>sylum.cc</p>
+        </div>
+        <div class="links">
+            <a href="https://discord.gg/race" target="_blank">discord</a>
+        </div>
+        <div class="links">
+            <a href="https://cuts.lol/members" target="_blank">members</a>
+        </div>
+        <div class="links">
+            <a href="https://cuts.lol/purches" target="_blank">purches</a>
+        </div>
+    </header>
+
+    <div class="changing-text">. . . . .</div>
+
+    <script>
+        const changingText = document.querySelector('.changing-text');
+        const texts = ["sylum.cc", "Private Biolink"];
+        let index = 0;
+
+        setInterval(() => {
+            index = (index + 1) % texts.length;
+            changingText.textContent = texts[index];
+        }, 1500);
+    </script>
+
+</body>
+</html>
