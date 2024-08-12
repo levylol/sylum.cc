@@ -1,17 +1,17 @@
 @font-face {
     font-family: "Main";
-    src: url("/assets/MC.ttf");
+    src: url("/main/assets/MC.ttf");
 }
 
 @font-face {
     font-family: "Other";
-    src: url("assets/MC.TTF");
+    src: url("/main/assets/MC.TTF");
 }
 
 
 
 body {
-    background-image: url('/assets/cuts.png');
+    background-image: url('/main/assets/cuts.png');
     background-size: cover;
     background-attachment: fixed;
     margin: 0;
