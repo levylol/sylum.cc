@@ -63,7 +63,7 @@ header {
     text-align: center;
     color: #ffffffc4;
     font-size: 23px;
-    font-family: Arial, sans-serif;
+    font-family: Main;
     margin-top: -5px;
     margin-left: -240px;
     -webkit-touch-callout: none;
@@ -108,11 +108,11 @@ header {
 }
 
 .glowing-text {
-    font-family: 'HelpMe', sans-serif;
+    font-family: Main;
 }
 
 .changing-text {
-    font-family: 'Drama', sans-serif;
+    font-family: Main;
     margin-top: 3px;
     font-size: 25px;
 }
