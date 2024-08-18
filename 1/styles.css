@@ -1,0 +1,458 @@
+
+body {
+  background: url() no-repeat center center fixed;
+  background-size: cover;
+  height: 100vh;
+  margin: 0;
+  -webkit-touch-callout: none;
+     -webkit-user-select: none;
+     -khtml-user-select: none;
+     -moz-user-select: none;
+     -ms-user-select: none;
+     user-select: none;
+}
+
+body:before {
+content: "";
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background-color: rgba(0, 0, 0, 0); 
+z-index: 1;
+-webkit-touch-callout: none;
+     -webkit-user-select: none;
+     -khtml-user-select: none;
+     -moz-user-select: none;
+     -ms-user-select: none;
+     user-select: none;
+}
+body > * {
+position: relative;
+z-index: 2;
+-webkit-touch-callout: none;
+     -webkit-user-select: none;
+     -khtml-user-select: none;
+     -moz-user-select: none;
+     -ms-user-select: none;
+     user-select: none;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+  backdrop-filter: blur(7px);
+  -webkit-touch-callout: none;
+     -webkit-user-select: none;
+     -khtml-user-select: none;
+     -moz-user-select: none;
+     -ms-user-select: none;
+     user-select: none;
+}
+
+.proceed-button {
+  background-color: transparent;
+  border: none;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  position: fixed;
+  -webkit-touch-callout: none;
+     -webkit-user-select: none;
+     -khtml-user-select: none;
+     -moz-user-select: none;
+     -ms-user-select: none;
+     user-select: none;
+}
+
+.proceed-button:hover {
+  text-decoration: underline;
+  color: rgb(255, 255, 255);
+  -webkit-touch-callout: none;
+     -webkit-user-select: none;
+     -khtml-user-select: none;
+     -moz-user-select: none;
+     -ms-user-select: none;
+     user-select: none;
+}
+
+video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+  -webkit-touch-callout: none;
+     -webkit-user-select: none;
+     -khtml-user-select: none;
+     -moz-user-select: none;
+     -ms-user-select: none;
+     user-select: none;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  height: 15px;
+  width: 100px;
+  background: rgba(255, 255, 255, 0);
+  padding: 5px 10px;
+  border-radius: 90px;
+  box-shadow: 0 0px 3px rgba(255, 255, 255, 0);
+  position: absolute;
+  top: 370px;
+  left: 50%;
+  transform: translateX(-50%);
+  justify-content: space-between;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;SS
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.logo img {
+  margin-top: 5px;
+  margin-left: px;
+  width: 30px;
+  height: 30px;
+  -webkit-touch-callout: none;
+   -webkit-user-select: none;
+   -khtml-user-select: none;
+   -moz-user-select: none;
+   -ms-user-select: none;
+   user-select: none;
+}
+
+.title {
+  flex-grow: 1;
+  text-align: center;
+  color: #ffffffc4;
+  font-size: 23px;
+  font-family: Arial, sans-serif;
+  margin-top: -5px;
+  margin-left: -240px;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.title p {
+  font-family: Main;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+
+.links a {
+  font-family: Main;
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 0 5px;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.temp-rectangle {
+position: fixed;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+width: 700px;
+height: 350px;
+border-radius: 25px;
+background-color: white;
+-webkit-touch-callout: none;
+     -webkit-user-select: none;
+     -khtml-user-select: none;
+     -moz-user-select: none;
+     -ms-user-select: none;
+     user-select: none;
+}
+
+.line {
+position: fixed;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+width: 650px;
+height: 1px;
+border-radius: 5px;
+background-color: rgb(255, 255, 255);
+background: linear-gradient(to right, rgba(0, 0, 0, 0), rgb(255, 255, 255), rgba(0, 0, 0, 0));
+-webkit-touch-callout: none;
+     -webkit-user-select: none;
+     -khtml-user-select: none;
+     -moz-user-select: none;
+     -ms-user-select: none;
+     user-select: none;
+}
+
+.pfp {
+position: fixed;
+top: 470px;
+left: 50%;
+transform: translate(-240%, -125%);
+width: 130px;
+height: 125px;
+filter: drop-shadow(0 0 3px #ffffff);
+border-radius: 90px;
+-webkit-touch-callout: none;
+     -webkit-user-select: none;
+     -khtml-user-select: none;
+     -moz-user-select: none;
+     -ms-user-select: none;
+     user-select: none;
+}
+
+#triptych-name {
+position: fixed;
+top: 49.5%;
+left: 870px; 
+transform: translate(-90%, -400%);
+color: #ffffff;
+filter: drop-shadow(0 0 10px #ffffff);
+font-family: 'Futura', 'Futura PT', 'FuturaStd-Light', 'Futura Std Light', 'FuturaStd-Book', 'Futura Std Book', 'Futura PT Book', 'Futura', sans-serif;
+-webkit-touch-callout: none;
+     -webkit-user-select: none;
+     -khtml-user-select: none;
+     -moz-user-select: none;
+     -ms-user-select: none;
+     user-select: none;
+}
+
+#telegram-hover {
+position: fixed;
+top: 50%;
+left: 50%;
+width: 25px;
+height: 25px;
+transform: translate(-50%, 175%);
+filter: drop-shadow(0 0 5px #ffffff);
+transition: transform 0.5s ease;
+-webkit-touch-callout: none;
+     -webkit-user-select: none;
+     -khtml-user-select: none;
+     -moz-user-select: none;
+     -ms-user-select: none;
+     user-select: none;
+}
+
+#telegram-hover:hover {
+transform: translate(-50%, 175%) scale(1.3);
+
+}
+
+.github {
+position: fixed;
+top: 49.5%;
+left: 50.3%;
+width: 34px;
+height: 34px;
+transform: translate(50%, 130%);
+filter: drop-shadow(0 0 5px #ffffff);
+transition: transform 0.5s ease;
+-webkit-touch-callout: none;
+     -webkit-user-select: none;
+     -khtml-user-select: none;
+     -moz-user-select: none;
+     -ms-user-select: none;
+     user-select: none;
+}
+
+.github:hover {
+transform: translate(50%, 130%) scale(1.3);
+-webkit-touch-callout: none;
+     -webkit-user-select: none;
+     -khtml-user-select: none;
+     -moz-user-select: none;
+     -ms-user-select: none;
+     user-select: none;
+}
+
+.sylum {
+  position: fixed;
+  top: 850px;
+  left: 50%;
+  width: 40px;
+  height: 40px;
+  transform: translate(-50%, 175%);
+  filter: drop-shadow(0 0 5px #ffffff);
+  transition: transform 0.5s ease;
+  -webkit-touch-callout: none;
+     -webkit-user-select: none;
+     -khtml-user-select: none;
+     -moz-user-select: none;
+     -ms-user-select: none;
+     user-select: none;
+  }
+  
+  #sylum:hover {
+  transform: translate(-50%, 175%) scale(1.3);
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  }
+
+.discord {
+position: fixed;
+top: 50.3%;
+left: 49.7%;
+width: 28px;
+height: 19px;
+transform: translate(-165%, 237%);
+transition: transform 0.5s ease;
+filter: drop-shadow(0 0 1.5px #ffffff);
+-webkit-touch-callout: none;
+     -webkit-user-select: none;
+     -khtml-user-select: none;
+     -moz-user-select: none;
+     -ms-user-select: none;
+     user-select: none;
+}
+
+.discord:hover {
+transform: translate(-165%, 237%) scale(1.3);
+-webkit-touch-callout: none;
+     -webkit-user-select: none;
+     -khtml-user-select: none;
+     -moz-user-select: none;
+     -ms-user-select: none;
+     user-select: none;
+}
+
+.owner {
+  position: fixed;
+  top: 147px;
+  left: 434px;
+  width: 25px;
+  height: 25px;
+  transform: translate(50%, 130%);
+  filter: drop-shadow(0 0 0.3px #ffffff);
+  transition: transform 0.5s ease;
+  -webkit-touch-callout: none;
+       -webkit-user-select: none;
+       -khtml-user-select: none;
+       -moz-user-select: none;
+       -ms-user-select: none;
+       user-select: none;
+  }
+
+  .owner-text {
+    position: absolute;
+    top: 130px;
+    left: 434.2px;
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0);
+    box-shadow: 0 0px 3px rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    padding: 5px 10px;
+    border-radius: 5px;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+    height: 20px;
+    overflow: hidden;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.owner:hover .owner-text {
+  top: 136px;
+  left: 457.5px;
+    visibility: visible;
+    opacity: 1;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+  
+  .owner:hover {
+  -webkit-touch-callout: none;
+       -webkit-user-select: none;
+       -khtml-user-select: none;
+       -moz-user-select: none;
+       -ms-user-select: none;
+       user-select: none;
+  }
+
+.quote {
+position:fixed;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+color: #ffffff;
+filter: drop-shadow(0 0 6px #ffffff);
+-webkit-touch-callout: none;
+     -webkit-user-select: none;
+     -khtml-user-select: none;
+     -moz-user-select: none;
+     -ms-user-select: none;
+     user-select: none;
+}
+
+.aka {
+position: fixed;
+top: 49.5%;
+left: 940px;
+transform: translate(-150%, -600%);
+opacity: 0.7;
+color: #ffffff;
+filter: drop-shadow(0 0 4px #ffffff);
+font-family: 'Futura', 'Futura PT', 'FuturaStd-Light', 'Futura Std Light', 'FuturaStd-Book', 'Futura Std Book', 'Futura PT Book', 'Futura', sans-serif;
+-webkit-touch-callout: none;
+     -webkit-user-select: none;
+     -khtml-user-select: none;
+     -moz-user-select: none;
+     -ms-user-select: none;
+     user-select: none;
+}
+
+#snow {
+position: fixed;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+pointer-events: none;
+-webkit-touch-callout: none;
+     -webkit-user-select: none;
+     -khtml-user-select: none;
+     -moz-user-select: none;
+     -ms-user-select: none;
+     user-select: none;
+}
+
+
